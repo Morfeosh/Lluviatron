@@ -8,7 +8,7 @@ const path = require('path');
 const uuid = require('uuid');
 
 // Configuración del bot
-const BOT_NAME = "RagnaInfo";
+const BOT_NAME = "Lluviatron";
 const RAIN_DURATION = 30 * 60 * 1000; // 30 minutos en milisegundos
 
 // Configurar intents y crear cliente
@@ -57,14 +57,7 @@ const getChromeOptions = () => {
     return options;
 };
 
-// Crear el directorio user_data si no existe
-//if (!fs.existsSync('C:/Users/morfe/ragnarokesp')) {
-//    try {
-//        fs.mkdirSync('C:/Users/morfe/ragnarokesp');
-//    } catch (e) {
-//        console.error('Error creating user data directory:', e);
-//    }
-//}
+
 
 // Función para refrescar página
 async function refreshPage(driver) {
