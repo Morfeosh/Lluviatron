@@ -1,12 +1,12 @@
 {
-  "name": "raintal-bot",
+  "name": "Lluviatron",
   "version": "1.0.0",
-  "description": "A Discord bot for monitoring rain schedules.",
+  "description": "Prevision de lluvias Throne and Liberty",
   "main": "ragna.js",
   "scripts": {
     "start": "node ragna.js"
   },
-  "author": "Your Name",
+  "author": "Draconidas",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.17.3",
